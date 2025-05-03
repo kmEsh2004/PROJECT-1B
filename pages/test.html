@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMW M PERFORMANCE</title>
+  <link rel="stylesheet" href="../assets/styles/style.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header id="header">
+    <nav class="navbar container">
+      <div>BMW M Tesdrive</div>
+      <input type="checkbox" class="menu-toggle" id="menu-toggle">
+      <label for="menu-toggle" class="menu-btn">☰</label>
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./services.html">Services</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+<main>
+    <section id="contact">
+      <div class="container">
+        <h1>Book a Testdrive</h1>
+        
+        <form action="./submission.html">
+          <div class="date">
+            <div class="form-group">
+              <label for="date">Preffered Date</label>
+              <input type="date" id="order-date">
+            </div>
+  
+          <div class="time">
+            <div class="form-group">
+              <label for="time">Preffered time</label>
+              <input type="time" id="date-time">
+            </div>        
+            
+       
+          <div class="fullname">
+            <div class="form-group">
+              <label for="firstName">Model</label>
+            <select id="options" class="select"><option value="1">BMW M2 Coupe</option><option value="2">BMW M3 SEDAN</option></option><option value="3">BMW M4 Competiton Coupe/Convertible</op><option value="4">BMW X5 m SUV</option></select>
+            </div>
+            
+                  
+          <div class="fullname">
+            <div class="form-group">
+              <label for="firstName">Preferred Retailer</label>
+            <select id="options" class="select"><option value="1">Autoallee BMW</option><option value="2">Visayas Motor Works</option><option value="3">Premier Cars BMW</option><option value="4">RSA Motors Greenhills</option><option value="5">RSA Motors Libis</option></select>
+            </div>
+            
+        
+          <div class="fullname">
+            <div class="form-group">
+              <label for="firstName">First name</label>
+              <input type="text" id="firstName" placeholder="Enter your first name" required>
+            </div>
+            
+             <div class="form-group">
+              <label for="lastName">Last name</label>
+              <input type="text" id="lastName" placeholder="Enter your last name" required>
+            </div>
+            
+            <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email address" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="subject">Contact Number</label>
+            <input type="text" id="subject" placeholder="+639*********" required>
+          </div>
+          <button type="submit" class="primary-button">Submit</button>
+         </form>

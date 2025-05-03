@@ -1,20 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Web Page</title>
-   
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMW M Performance</title>
+  <link rel="stylesheet" href="./assets/styles/style.css">
 </head>
+
 <body>
-    <header>
-        <h1>initial</h1>
-    </header>
-    <main>
-        <p>This is a simple HTML template to help you get started with your web development journey.</p>
-    </main>
-    <footer>
-        <p>&copy; still learning</p>
-    </footer>
+  <!-- Header -->
+  <header id="header">
+    <nav class="navbar container">  
+        <div><img src="logo.jpg" class="logo"/>BMW M PERFORMANCE</div>
+      <input type="checkbox" class="menu-toggle" id="menu-toggle">
+      <label for="menu-toggle" class="menu-btn">☰</label>
+      <ul class="nav-links">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./pages/about.html">About</a></li>
+        <li><a href="./pages/services.html">Services</a></li>
+        <li><a href="./pages/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section id="hero-banner" class="container">
+      <div class="hero-content">
+        <h2>BMW M PERFORMANCE</h2>
+        <p>BMW M models are high-performance vehicles known for their blend of luxury and racing technology. They are developed by BMW M GmbH and are characterized by features like M sports suspension, powerful engines, and unique M tuning. </p>
+        <div class="btn-group">
+           <a href="./pages/test.html"><button class="primary-button">About BMW</button></a>
+          <a href="./pages/contact.html"><button class="secondary-button">Register your Interest</button></a>
+        </div>
+      </div>
+      <div class="hero-image"><img src="./assets/image/hero-banner-image.jpg" alt="Hero Banner Image">    </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+      <div class="container services-container">
+        <div class="services-heading">
+          <h2>BMW M Performance goal</h2>
+          <p>BMW M Performance vehicles offer a blend of high performance and sporty styling, distinct from the more aggressive M models. M Performance cars are equipped with powerful, efficient engines, like the inline six-cylinder used in the BMW 1 and 2 Series, and the V8 in models like the M550i xDrive. </p>
+        </div> <div class="card-container">
+   <!-- Card 1 -->
+   <div class="card">
+     <div class="card-header">
+       <img src="./assets/image/test.jpg" alt="Card Image">
+       <h3>TEST DRIVE</h3>
+     </div>
+     
+     <div class="card-body">
+       Experience the power of M Performance by yourself, feel the screaming roar of M Powered engine in your palm.
+     </div>
+     
+     <div class="card-footer">
+       <a href="./pages/test.html"><button class="secondary-button">Book Online</button></a>
+     </div>
+   </div>
+   
+   <!-- Card 2 -->
+   <div class="card">
+     <div class="card-header">
+       <img src="./assets/image/m3gtr.jpg" alt="Card Image">
+       <h3>M POWERED PARTS</h3>
+        </div>
+         <div class="card-body">
+            Cuztomize and upgrade your M performance Car that fits your aesthetics and lifestyle. Bring more horses under the hood
+</div>
+     
+     <div class="card-footer">
+       <button class="secondary-button">Shop online</button>
+     </div>
+   </div>
+   
+   <!-- Card 3 -->
+   <div class="card">
+     <div class="card-header">
+       <img src="./assets/image/mpower.jpg" alt="Card Image">
+       <h3>FIND YOUR BMW M</h3>
+     </div>
+     
+     <div class="card-body">
+       High-performance coupes, convertibles, sedans and SUVs - there's a BMW M model for every driver. Find the M vehicle that fits your style.
+     </div>
+     
+     <div class="card-footer">
+       <button class="secondary-button">Learn more</button>
+     </div>
+   </div>
+ </div>
+
+        
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <p>© 2025 - Web Development Project  All rights reserved.</p>
+  </footer>
 </body>
+
 </html>
